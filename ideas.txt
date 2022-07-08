@@ -1,0 +1,14 @@
+## Ideas
+
+* Program takes in a mass up to an arbitrary number of decimal places
+* Also takes in a config file with list of all atoms it wants to search with (eg. Have an organics one and a PT one)
+* Output is a nicely formatted LaTeX pdf
+* Contains a table filtered by amount of atoms
+* Loops over all elements and all possible combinations up to the mass inputted to determine exact mass, or can account for isotopic differences
+* Has options for restricting search, eg. I know I have 3 atoms, or I know there are 5 carbons in it, or I know which element set to use (organics or PT), including/excluding isotopic differences
+* Can input multiple masses to spit out many different formulae (eg. All in command line input pipe, or all from a text file)
+* Allows for options for ‘common small molecules’ eg water, benzene, ammonium ion (again, from an input file)
+* Has a progress bar & progress log that runs smoothly and doesn’t print after every search
+* Has timing to it
+* Have an ‘auto’ mode where, if it detects a full config file, then no user input is asked for
+* Try to include a GUI maybe, and extensive class usage
